@@ -1,6 +1,6 @@
 # 04 — Aggregation Basics
 
-Aggregation lets you group and compute statistics, similar to `GROUP BY` in SQL. In Compass, use the **Aggregations** tab; on the shell use `db.students.aggregate([...])`.
+Aggregation lets you group and compute statistics, similar to `GROUP BY` in SQL. In Compass, use the **Aggregations** tab; on the shell use `db.students.aggregate([...])`. You pass a list of stages, and each stage transforms the data before passing it to the next one.
 
 ## Average marks per course
 
@@ -14,6 +14,7 @@ db.students.aggregate([
   { $sort: { averageMarks: -1 } }
 ])
 ```
+> `$group` bundles students by `course`, `$avg` computes the average marks per group, and `$sum: 1` counts students in each group. Then we sort by average, highest first.
 
 ## Highest scorer per course
 
@@ -27,6 +28,7 @@ db.students.aggregate([
   } }
 ])
 ```
+> We sort by marks first so the top scorer comes first in each course. Then `$first` grabs that first (highest) student's name and marks per group.
 
 ## Count active vs inactive students
 
@@ -38,6 +40,7 @@ db.students.aggregate([
   } }
 ])
 ```
+> Groups students by `is_active` (true/false) and counts how many fall into each group.
 
 ## Students per city, only cities with 3+ students
 
@@ -48,6 +51,7 @@ db.students.aggregate([
   { $sort: { count: -1 } }
 ])
 ```
+> Group by city and count students, then `$match` filters those group totals to keep only cities with 3 or more students, sorted highest first.
 
 ## Join students with their course details ($lookup)
 
@@ -70,3 +74,4 @@ db.students.aggregate([
   } }
 ])
 ```
+> `$lookup` works like a SQL join — it matches `course` to `course_code` in the `courses` collection. `$unwind` flattens the matched array into a single object, and `$project` picks just the fields we want to keep.
