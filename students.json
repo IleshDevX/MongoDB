@@ -1,0 +1,22 @@
+[
+  { "roll_no": 101, "name": "Rahul Patel", "age": 19, "course": "BCA-AI", "city": "Surat", "email": "rahul.patel@example.com", "marks": 78, "is_active": true, "enrolled_on": "2024-06-15" },
+  { "roll_no": 102, "name": "Priya Shah", "age": 18, "course": "BCA-AI", "city": "Ahmedabad", "email": "priya.shah@example.com", "marks": 92, "is_active": true, "enrolled_on": "2024-06-15" },
+  { "roll_no": 103, "name": "Amit Joshi", "age": 20, "course": "BCA-AI", "city": "Rajkot", "email": "amit.joshi@example.com", "marks": 65, "is_active": true, "enrolled_on": "2024-06-16" },
+  { "roll_no": 104, "name": "Riya Mehta", "age": 18, "course": "BCA-DS", "city": "Vadodara", "email": "riya.mehta@example.com", "marks": 88, "is_active": true, "enrolled_on": "2024-06-16" },
+  { "roll_no": 105, "name": "Karan Desai", "age": 21, "course": "BCA-DS", "city": "Surat", "email": "karan.desai@example.com", "marks": 55, "is_active": false, "enrolled_on": "2024-06-17" },
+  { "roll_no": 106, "name": "Neha Trivedi", "age": 19, "course": "BCA-AI", "city": "Bhavnagar", "email": "neha.trivedi@example.com", "marks": 73, "is_active": true, "enrolled_on": "2024-06-17" },
+  { "roll_no": 107, "name": "Vivek Rana", "age": 20, "course": "BCA-Cyber", "city": "Rajkot", "email": "vivek.rana@example.com", "marks": 81, "is_active": true, "enrolled_on": "2024-06-18" },
+  { "roll_no": 108, "name": "Sneha Pandya", "age": 18, "course": "BCA-Cyber", "city": "Ahmedabad", "email": "sneha.pandya@example.com", "marks": 95, "is_active": true, "enrolled_on": "2024-06-18" },
+  { "roll_no": 109, "name": "Aakash Solanki", "age": 22, "course": "BCA-DS", "city": "Vadodara", "email": "aakash.solanki@example.com", "marks": 60, "is_active": false, "enrolled_on": "2024-06-19" },
+  { "roll_no": 110, "name": "Pooja Vaghela", "age": 19, "course": "BCA-AI", "city": "Surat", "email": "pooja.vaghela@example.com", "marks": 84, "is_active": true, "enrolled_on": "2024-06-19" },
+  { "roll_no": 111, "name": "Rohan Chauhan", "age": 20, "course": "BCA-Cyber", "city": "Rajkot", "email": "rohan.chauhan@example.com", "marks": 70, "is_active": true, "enrolled_on": "2024-06-20" },
+  { "roll_no": 112, "name": "Divya Parmar", "age": 18, "course": "BCA-AI", "city": "Ahmedabad", "email": "divya.parmar@example.com", "marks": 90, "is_active": true, "enrolled_on": "2024-06-20" },
+  { "roll_no": 113, "name": "Yash Bhatt", "age": 21, "course": "BCA-DS", "city": "Bhavnagar", "email": "yash.bhatt@example.com", "marks": 58, "is_active": true, "enrolled_on": "2024-06-21" },
+  { "roll_no": 114, "name": "Kavya Modi", "age": 19, "course": "BCA-Cyber", "city": "Surat", "email": "kavya.modi@example.com", "marks": 87, "is_active": true, "enrolled_on": "2024-06-21" },
+  { "roll_no": 115, "name": "Dev Prajapati", "age": 20, "course": "BCA-AI", "city": "Vadodara", "email": "dev.prajapati@example.com", "marks": 76, "is_active": false, "enrolled_on": "2024-06-22" },
+  { "roll_no": 116, "name": "Anjali Thakor", "age": 18, "course": "BCA-DS", "city": "Rajkot", "email": "anjali.thakor@example.com", "marks": 91, "is_active": true, "enrolled_on": "2024-06-22" },
+  { "roll_no": 117, "name": "Harsh Rathod", "age": 22, "course": "BCA-Cyber", "city": "Ahmedabad", "email": "harsh.rathod@example.com", "marks": 63, "is_active": true, "enrolled_on": "2024-06-23" },
+  { "roll_no": 118, "name": "Meera Chavda", "age": 19, "course": "BCA-AI", "city": "Bhavnagar", "email": "meera.chavda@example.com", "marks": 79, "is_active": true, "enrolled_on": "2024-06-23" },
+  { "roll_no": 119, "name": "Nikhil Gohel", "age": 20, "course": "BCA-DS", "city": "Surat", "email": "nikhil.gohel@example.com", "marks": 68, "is_active": true, "enrolled_on": "2024-06-24" },
+  { "roll_no": 120, "name": "Isha Makwana", "age": 18, "course": "BCA-Cyber", "city": "Vadodara", "email": "isha.makwana@example.com", "marks": 94, "is_active": true, "enrolled_on": "2024-06-24" }
+]

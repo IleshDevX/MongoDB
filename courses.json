@@ -1,0 +1,5 @@
+[
+  { "course_code": "BCA-AI", "course_name": "BCA in Artificial Intelligence", "duration_years": 3, "instructor": "Dr. Mehta", "fees_inr": 85000 },
+  { "course_code": "BCA-DS", "course_name": "BCA in Data Science", "duration_years": 3, "instructor": "Prof. Iyer", "fees_inr": 90000 },
+  { "course_code": "BCA-Cyber", "course_name": "BCA in Cyber Security", "duration_years": 3, "instructor": "Dr. Nair", "fees_inr": 95000 }
+]
