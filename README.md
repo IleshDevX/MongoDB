@@ -100,9 +100,9 @@ Or download the ZIP from the green **Code** button on GitHub.
 
 1. Click **Create Database**
    - Database name: `student_management`
-   - Collection name: `students_<your_roll_number>` (e.g. `students_101`) if sharing a cluster, otherwise just `students`
+   - Collection name: `students`
 2. Inside the same database, click **Create Collection** again
-   - Collection name: `courses_<your_roll_number>` or just `courses`
+   - Collection name: `courses`
 
 ### Step 4 — Import both datasets
 
