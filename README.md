@@ -61,7 +61,6 @@ mongodb-workshop/
 │   ├── 02-queries.md
 │   ├── 03-projection-sort.md
 │   ├── 04-aggregation.md
-│   └── 05-indexing.md
 └── challenges/
     ├── challenge-1-crud.md
     ├── challenge-2-queries.md
@@ -120,7 +119,6 @@ You should see 20 documents in `students` and 3 documents in `courses`.
 2. [`commands/02-queries.md`](commands/02-queries.md) — Filtering with operators
 3. [`commands/03-projection-sort.md`](commands/03-projection-sort.md) — Choosing fields, sorting, paging
 4. [`commands/04-aggregation.md`](commands/04-aggregation.md) — Grouping and computing stats
-5. [`commands/05-indexing.md`](commands/05-indexing.md) — Speeding up queries
 
 ### Step 6 — Challenges
 
