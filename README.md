@@ -129,21 +129,3 @@ Work through these on your own once you've finished the command sheets:
 3. [`challenges/challenge-3-aggregation.md`](challenges/challenge-3-aggregation.md)
 
 ---
-
-## Suggested time plan (extend as needed)
-
-| Time | Activity |
-|---|---|
-| 0–10 min | Atlas + Compass connection |
-| 10–15 min | Create DB, import both collections |
-| 15–25 min | CRUD activities |
-| 25–35 min | Queries: filters, projection, sorting |
-| 35–45 min | Aggregation basics |
-| 45–50 min | Indexing demo |
-| 50–60 min | Final challenges |
-
-This fits comfortably in a 60-minute session, or can be split across two 30-minute sessions (CRUD + queries in session 1, aggregation + indexing + challenges in session 2).
-
-## After the workshop
-
-Create your own free Atlas account and keep building — try adding a third collection (e.g. `attendance` or `fees`) and linking it to `students` the same way `courses` is linked.
